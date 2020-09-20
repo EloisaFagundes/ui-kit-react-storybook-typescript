@@ -1,5 +1,6 @@
 import { configure, addParameters, addDecorator } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
+//addon-info é que o faz com que apareça mais informações osbre o componente.
 
 // CENTRALIZA os elementos
 import centered from '@storybook/addon-centered/react';
@@ -15,6 +16,8 @@ addParameters({
   },
 });
 
+// o withInfo é para visualizar mais sobre o componente, não esquecer de colocar pois 
+// é ele que dá consistência para a documentação.
 addDecorator(withInfo);
 addDecorator(centered);
 
