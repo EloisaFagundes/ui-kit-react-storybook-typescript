@@ -19,6 +19,6 @@ export default create({
   barBg: '#1b1a1f',
 
   //Tema da ROCKETSEAT
-  brandTitle: 'Rocketseat',
+  brandTitle: 'Meu primeiro Storybook',
   brandUrl: 'https://rocketseat.com.br/',
 });
