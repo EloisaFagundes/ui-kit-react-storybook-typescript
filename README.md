@@ -4,6 +4,7 @@
 -  Button
 -  Input
 -  Separator
+-  RiIcon ( Icones)
 
 
 ## Tecnologias
