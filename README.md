@@ -3,7 +3,7 @@
 ## Componentes
 -  Button
 -  Input
--  Separator
+-  Divider
 -  RiIcon ( Icones)
 
 
