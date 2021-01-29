@@ -2,7 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 
 
-import { RiIcon, Card, Divider } from "../src"
+import { RiIcon, Card } from "../src"
 
 storiesOf('RiIcon', module)
 .add('Search', () => (
