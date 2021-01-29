@@ -1,9 +1,9 @@
 import React from "react";
 import { storiesOf } from "@storybook/react"
 
-import { Separator } from "../src"
+import { Divider } from "../src"
 
-storiesOf('Separator', module).add('Default', () => (
+storiesOf('Divider', module).add('Default', () => (
     //esse componente é somente o estilo!
     <div
         style={{
@@ -12,6 +12,6 @@ storiesOf('Separator', module).add('Default', () => (
             backgroundColor: '#000',
         }}
     >
-        <Separator />
+        <Divider />
     </div>
 ))
