@@ -1,5 +1,5 @@
 import { FaSearch } from "react-icons/fa";
-import { AiFillDelete, AiFillEdit, AiOutlineCloudUpload } from "react-icons/ai";
+import { AiFillDelete, AiFillEdit, AiOutlineCloudUpload, AiOutlineLoading3Quarters } from "react-icons/ai";
 import styled from 'styled-components';
 
 
@@ -21,6 +21,10 @@ export const ICDeleteIconStyled = styled(AiFillDelete)`
     opacity: 0.9;
     color: red;
   }
+`;
+
+export const ICLoading = styled(AiOutlineLoading3Quarters)`
+  color: gray;
 `;
 
 export const ICEditIconStyled = styledIcon(AiFillEdit);

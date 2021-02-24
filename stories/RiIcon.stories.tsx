@@ -30,3 +30,10 @@ storiesOf('RiIcon', module)
     </Card>
 
 ))
+
+.add('Loading', () => (
+  <Card color={('white')}>
+    <RiIcon.IcLoading/>
+  </Card>
+
+))

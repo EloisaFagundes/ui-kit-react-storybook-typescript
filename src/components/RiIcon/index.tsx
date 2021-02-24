@@ -4,6 +4,7 @@ import {
   ICEditIconStyled,
   ICSearchStyled,
   ICUploadStyled,
+  ICLoading,
 } from "./styles";
 
 export const RiIcon = {
@@ -18,5 +19,8 @@ export const RiIcon = {
   ),
   IcUpload: (props: any) => (
     <ICUploadStyled {...props} title="Baixar" size="30px" />
+  ),
+  IcLoading: (props: any) => (
+    <ICLoading {...props} title="Carregando" size="30px" />
   ),
 };
